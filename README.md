@@ -6,7 +6,7 @@
 
 [1. Giới thiệu về IDS/IPS ](#1)
 
-[2. Mục tiêu chí nghiệm ](#2)
+[2. Mục tiêu ](#2)
 
 [3.	Thiết lập mạng và hệ thống thử nghiệm](#3)
 
