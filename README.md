@@ -189,6 +189,7 @@ System -> package manager
 ## 4.6 Các kịch bản tấn công TCP/UDP
 
 - **TCP Connect Attack**:
+  
 ![image](https://github.com/user-attachments/assets/2f7249b5-35a7-4eb1-a072-d21634a588ca)
 
     ```bash
@@ -205,6 +206,7 @@ System -> package manager
 
 
 - **TCP SYN Attack**:
+  
   ![image](https://github.com/user-attachments/assets/0eb12695-98eb-44c2-9d6c-efc45ce5bf02)
 
     ```bash
@@ -219,6 +221,7 @@ System -> package manager
 
 
 - **TCP ACK Attack**:
+  
   ![image](https://github.com/user-attachments/assets/f023c03a-aa49-4f64-8069-698243631c07)
 
     ```bash
@@ -231,6 +234,7 @@ System -> package manager
 ![image](https://github.com/user-attachments/assets/e6ca4a90-f03b-4182-ad98-5b043a5cc746)
 
 - **UDP Connect Attack**:
+  
   ![image](https://github.com/user-attachments/assets/41730883-0381-486b-959c-c50daad3acf6)
    ```bash
     alert udp any any -> $HOME_NET any (msg:"UDP Connect Scan Detected"; sid:1000005; rev:1;)
