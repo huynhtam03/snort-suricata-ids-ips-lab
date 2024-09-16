@@ -298,3 +298,9 @@ done < "payloads.txt"
 drop tcp any any -> any 80 (msg:"chan SQL Injection Attempt"; flow:to_server,established; content:"'"; nocase; content:" or "; nocase; pcre:"/(\%27)|(\')|(\-\-)|(\%23)|(#)/i"; classtype:web-application-attack; sid:1000001; rev:1;)
 ```
 ![image](https://github.com/user-attachments/assets/ace81c16-771e-4752-acd8-5dd22bf39c8e)
+
+
+
+###LINK VIDEO : https://youtu.be/gw16DerRnIk?si=aRikUMi-Jyht5yzC
+###LINK VIDEO : https://youtu.be/2wu2CREek5A?si=W2sKNPBdQwZN0N7B
+###LINK VIDEO : https://youtu.be/O65kcTTbI2s?si=CrJWiYpO-q3HyDGX
